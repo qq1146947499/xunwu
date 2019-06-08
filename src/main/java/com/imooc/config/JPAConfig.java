@@ -15,9 +15,7 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-/**
- * Created by 瓦力.
- */
+
 @Configuration
 @EnableJpaRepositories(basePackages = "com.imooc.repository")
 @EnableTransactionManagement
